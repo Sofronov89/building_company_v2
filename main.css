@@ -1,0 +1,873 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header_back
+{
+    background-color: rgb(74,64,64);
+    width: 100%;
+    height: 30px;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_back
+{
+    background-color: rgb(74,64,64);
+    width: 100%;
+    height: 70px;
+    z-index: -1;
+    margin-top: -70px;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container
+{
+    max-width: 1170px;
+    margin-top: -949px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_first
+{
+    background-color: rgb(74,64,64);
+    display: block;
+    position: relative;
+    height: 30px;
+}
+
+.search_window
+{
+    font-size: 12px;
+    line-height: 36px;
+    color: #dcd9d9;
+    font-family: "Open Sans Light";
+    font-weight: 300;
+    font-style: italic;
+    background-image: url(лупа.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    width: 199px;
+    height: 20px;
+    background-color: rgb(98,90,90);
+    border: none;
+    text-indent: 30px;
+    margin-top: 5px;
+}
+
+.call_me
+{
+    float: right;
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fc9449;
+    font-family: "Open Sans";
+    font-weight: 300;
+    background-image: url(whats.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 0% 50%;
+    text-indent: 30px;
+    margin-left: 30px;
+}
+
+.number_region, .number_call
+{
+    float: right;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fc9449;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+.number_call
+{
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.number_region
+{
+    margin-left: 30px;
+}
+
+.mail_header
+{
+    background-image: url(письмо.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 0% 30%;
+    text-indent: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #cac8c8;
+    font-family: "Open Sans";
+    text-decoration: none;
+    float: right;
+}
+
+.footer
+{
+    clear: both;
+    width: 100%;
+    background-color: rgb(74,64,64);
+    height: 70px;
+    display: block;
+}
+
+.footer_info
+{
+    display: block;
+    width: 225px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 14px;
+    color: #d4d2d2;
+    font-family: "Open Sans";
+    font-weight: 300;
+    text-align: right;
+    float: right;
+    margin-top: 20px;
+}
+
+.footer_button
+{
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #d7d7d7;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+.footer_button:hover
+{
+    text-decoration: underline;
+}
+
+.logo
+{
+    background-image: url(логотип.png);
+    height: 55px;
+    width: 270px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.header_bar_button_div
+{
+    display: inline-block;
+    float: right;
+}
+
+.header_bar_button
+{
+    color: #4e4848;
+    font-family: "Open Sans";
+    font-weight: bold;
+    height: 60px;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 75px;
+}
+
+.last_button
+{
+    padding-right: 0;
+}
+
+.header_bar_button_div:hover
+{
+    background-color: rgb(239,238,238);
+}
+
+.header_bar_button:hover
+{
+    color: #e95d00;
+}
+
+.header_bar_button_div:hover:after
+{
+    content: " ";
+    height: 3px;
+    width: 100%;
+    background-color: #e95d00;
+    display: block;
+    margin-top: -3px;
+}
+
+.slider_catalog
+{
+    height: 494px;
+}
+
+.slider_catalog_back
+{
+    height: 494px;
+    z-index: -1;
+    position: relative;
+    top: 60px;
+    width: 100%;
+    background-image: url(фон_кирпич.jpg);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1920px;
+}
+
+.name_product
+{
+    width: 681px;
+    height: 73px;
+    font-size: 45px;
+    line-height: 85px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: bold;
+    float: left;
+    margin-top: 90px;
+    margin-left: 45px;
+    margin-bottom: 17px;
+}
+
+.name_product_back
+{
+    width: 681px;
+    height: 73px;
+    background-color: #ff6d00;
+    z-index: -1;
+    position: relative;
+    margin-top: -80px;
+    opacity: 0.7;
+    margin-left: -15px;
+}
+
+.question_div
+{
+    width: 630px;
+    height: 131px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #686767;
+    font-family: "Open Sans";
+    font-weight: 300;
+    margin-left: 113px;
+    display: inline-block;
+}
+
+.question_div_back
+{
+    width: 658px;
+    height: 131px;
+    background-color: #ffffff;
+    z-index: -1;
+    position: relative;
+    margin-top: -116px;
+    opacity: 0.7;
+    margin-left: -15px;
+}
+
+.question_button
+{
+    font-size: 14px;
+    line-height: 36px;
+    color: #e05f01;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.question_button_div
+{
+    height: 35px;
+    width: 170px;
+    border: 2px solid #e05f01;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about_company_div
+{
+    height: 425px;
+}
+
+.about_company_div_back
+{
+    height: 425px;
+    width: 100%;
+    z-index: -1;
+    position: relative;
+    top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1920px;
+    background-color: #e5e5e5;
+}
+.about_company
+{
+    margin-top: 60px;
+    font-size: 35px;
+    line-height: 36px;
+    color: #4e4848;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-align: center;
+}
+
+.about_company:after
+{
+    content: " ";
+    height: 3px;
+    width: 80%;
+    background-color: #e95d00;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 195px;
+}
+
+.photo_warehouse
+{
+    background-image: url(склад_кирпичей.jpg);
+    width: 535px;
+    height: 241px;
+    margin-top: 35px;
+    float: left;
+}
+
+.about_company_text
+{
+    font-size: 14px;
+    line-height: 18px;
+    color: #686767;
+    font-family: "Open Sans";
+    font-weight: 300;
+    float: left;
+    width: 40%;
+    height: 241px;
+    margin-top: 35px;
+    margin-left: 2%;
+}
+
+.about_company_button_div
+{
+    height: 35px;
+    width: 170px;
+    border: 2px solid #686767;;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.about_company_button
+{
+    font-size: 14px;
+    line-height: 36px;
+    color: #686767;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.news_header:after
+{
+    width: 130px;
+}
+
+.news_big_div
+{
+    height: 370px;
+    width: 568px;
+    float: left;
+    margin-top: 35px;
+}
+
+.news_big_div_photo
+{
+    background-image: url(брусчатка.jpg);
+    background-repeat: no-repeat;
+    width: 568px;
+    height: 215px;
+}
+
+.news_list
+{
+    height: 370px;
+    width: 555px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 35px;
+}
+
+.date_text
+{
+    padding-top: 20px;
+    padding-left: 15px;
+    display: flow-root;
+}
+
+.date_div
+{
+    width: 80px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    float: left;
+    padding-top: 6px;
+    margin-right: 15px;
+}
+
+.date
+{
+    font-size: 30px;
+    line-height: 18px;
+    color: #a09f9f;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+.date_year
+{
+    font-size: 14px;
+    line-height: 18px;
+    color: #989898;
+    font-family: "Open Sans";
+}
+
+.news_small_header
+{
+    font-size: 20px;
+    line-height: 20px;
+    color: #fb6c00;
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.news_small_text
+{
+    font-size: 14px;
+    line-height: 18px;
+    color: #555454;
+    font-family: "Open Sans";
+}
+
+.news_first_photo
+{
+    background-image: url(дом.jpg);
+    background-repeat: no-repeat;
+    width: 163px;
+    height: 166px;
+    float: left;
+}
+
+.news_list_item
+{
+    height: 166px;
+    margin-bottom: 40px;
+}
+
+.news_second_photo
+{
+    background-image: url(кирпичи.jpg);
+    background-repeat: no-repeat;
+    width: 162px;
+    height: 166px;
+    float: left;
+}
+
+.news_button
+{
+    height: 50px;
+    width: 240px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fb6b00;
+    font-size: 16px;
+    line-height: 50px;
+    color: #fffefe;
+    font-family: "Open Sans";
+    margin-top: 478px;
+    margin-bottom: 140px;
+    text-align: center;
+}
+
+.news_button, .about_company_button_div, .question_button_div, .header_bar_button, .news_small_header:hover
+{
+    cursor: url(icons8-курсор-20.png), default;
+}
+
+.news_small_header:hover
+{
+    text-decoration: underline;
+}
+
+.burger{
+    display: none;
+    position: relative;
+    float: right;
+    width: 60px;
+    height: 60px;
+    background-color: #dcd9d9;
+}
+
+.burg {
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 30px;
+    height: 2px;
+    background-color: rgb(74,64,64);
+}
+
+.burg:before,.burg:after{
+    content: '';
+    display: block;
+    position: relative;
+    height: 2px;
+    width: 30px;
+    background-color: rgb(74,64,64);
+    left: 0;
+    top: 8px;
+}
+
+.burg:after{
+    top: -10px;
+}
+
+.mobile_bar_button_div
+{
+    display: none;
+    flex-direction: column-reverse;
+    position: absolute;
+    z-index: 3;
+}
+
+.header_bar_button
+{
+    height: 50px;
+}
+
+.mobile_bar_button_div_back
+{
+    background-color: #686767;
+    opacity: 0.5;
+    display: none;
+    position: relative;
+    height: 300px;
+    margin-top: -294px;
+    z-index: -1;
+}
+
+.mobile_bar_button_div_active
+{
+    display: flex;
+}
+
+.mobile_bar_button_div_back_active
+{
+    display: block;
+}
+
+@media screen and (max-width: 320px)
+{
+    .search_window
+    {
+        margin-left: 10px;
+        background-image: none;
+        background-image: url(лупа2.png);
+        height: 30px;
+        width: 26px;
+        margin-top: 0px;
+        background-size: auto;
+    }
+
+    .mail_header
+    {
+        height: 27px;
+        width: 26px;
+        font-size: 0px;
+        background-size: auto;
+        margin-right: 3px;
+    }
+
+    .call_me
+    {
+        height: 28px;
+        width: 26px;
+        font-size: 0px;
+        margin-top: 0px;
+        background-size: auto;
+        margin-right: 32px;
+        margin-left: 0px;
+    }
+
+    .logo
+    {
+        margin-top: -5px;
+        width: 250px;
+        margin-left: 10px;
+        background-size: cover;
+    }
+
+    .burger
+    {
+        display: block;
+    }
+
+    .number_call
+    {
+        padding-right: 15px;
+    }
+
+    .name_product, .name_product_back
+    {
+        width: 300px;
+        height: 60px;
+        font-size: 25px;
+        line-height: 25px;
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .name_product
+    {
+        margin-top: 40px;
+        margin-left: 0px;
+
+    }
+
+    .name_product_back
+    {
+        margin-top: -55px;
+        margin-left: 0px;
+    }
+
+    .slider_catalog_back
+    {
+        width: 320px;
+    }
+
+    .question_div
+    {
+        font-size: 14px;
+        line-height: 18px;
+        color: #4c4c4c;
+        font-family: "Open Sans";
+        font-weight: 300;
+        width: 300px;
+        margin-left: 0;
+        margin-top: -15px;
+    }
+
+    .question_div_back
+    {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -138px;
+        height: 140px;
+    }
+
+    .question_button_div
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .slider_catalog
+    {
+        height: 300px;
+    }
+
+    .slider_catalog_back
+    {
+        height: 300px;
+    }
+
+    .container
+    {
+        width: 320px;
+        margin-top: -880px;
+    }
+
+    .about_company
+    {
+        font-size: 20px;
+        line-height: 36px;
+        color: #4e4848;
+        font-family: "Open Sans";
+        font-weight: bold;
+        margin-top: 30px;
+    }
+
+    .name_product, .question_div
+    {
+        margin-left: 10px;
+    }
+
+    .question_div p
+    {
+        padding-left: 10px;
+    }
+
+    .photo_warehouse
+    {
+        width: 300px;
+        margin-left: 10px;
+        height: 130px;
+        background-size: cover;
+    }
+
+    .about_company_text
+    {
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    .about_company_div
+    {
+        height: 550px;
+    }
+
+    .about_company_div_back
+    {
+        height: 550px;
+        width: 320px;
+    }
+
+    .about_company_button_div
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .news
+    {
+        height: 1137px;
+        background-color: honeydew;
+        margin-top: -24px;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news_big_div
+    {
+        width: 300px;
+        margin-left: 10px;
+        border: 1px solid #dcd9d9;
+        height: auto;
+    }
+
+    .news_big_div_photo
+    {
+        width: 300px;
+        height: 115px;
+    }
+
+    .date_text
+    {
+        background-color: white;
+    }
+
+    .news_small_header
+    {
+        font-size: 16px;
+        line-height: 18px;
+        color: #fb6c00;
+        font-family: "Open Sans";
+        font-weight: bold;
+    }
+
+    .news_list_item
+    {
+        width: 300px;
+        margin-bottom: 20px;
+        border: 1px solid #dcd9d9;
+        display: inline-table;
+    }
+
+    .news_first_photo, .news_second_photo
+    {
+        width: 300px;
+        height: 170px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .news_list
+    {
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    .date_div
+    {
+        padding-top: 0;
+    }
+
+    .news_button
+    {
+        display: none;
+    }
+
+    .footer
+    {
+        height: 185px;
+        display: flex;
+    }
+
+    .footer_button_bar
+    {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .footer_button
+    {
+        line-height: 18px;
+    }
+
+    .footer_back
+    {
+        display: none;
+    }
+
+    .footer_info
+    {
+        text-align: center;
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+
+    .header_bar_button_div
+    {
+        display: none;
+    }
+
+
+
+
+
+
+}
